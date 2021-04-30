@@ -1,6 +1,6 @@
-if DefCon <= 2 then
+if DarkMode = TRUE then
   search "youtube.com"
   set search_input "#bokisontour"
 else
-  set status="normal"
+  set status="GREEN"
 endif;
